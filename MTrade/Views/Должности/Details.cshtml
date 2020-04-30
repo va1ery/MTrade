@@ -1,0 +1,50 @@
+﻿@model MTrade.Models.Должности
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Должности</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Наименование_должности)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Наименование_должности)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Оклад)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Оклад)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Обязанности)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Обязанности)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Требования)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Требования)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Код_должности }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

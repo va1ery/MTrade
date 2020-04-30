@@ -1,0 +1,42 @@
+﻿@model MTrade.Models.Дополнительное_оборудование
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Дополнительное_оборудование</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Наименование)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Наименование)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Характеристики)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Характеристики)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Цена)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Цена)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Код_оборудования }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

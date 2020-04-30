@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b9b11680f8714083b5de3a007251af0c" Name="Diagram1">
+        <EntityTypeShape EntityType="АвтосалонModel.Автомобили" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="АвтосалонModel.Должности" Width="1.5" PointX="1.5" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="АвтосалонModel.Дополнительное_оборудование" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="АвтосалонModel.Заказчики" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="АвтосалонModel.Производители" Width="1.5" PointX="0.75" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="АвтосалонModel.Сотрудники" Width="1.5" PointX="1.5" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="АвтосалонModel.Тип_кузова" Width="1.5" PointX="0.75" PointY="24.125" IsExpanded="true" />
+        <AssociationConnector Association="АвтосалонModel.FK_dbo_Автомобили_dbo_Дополнительное_оборудование_Код_оборудования_1" ManuallyRouted="false" />
+        <AssociationConnector Association="АвтосалонModel.FK_dbo_Автомобили_dbo_Дополнительное_оборудование_Код_оборудования_2" ManuallyRouted="false" />
+        <AssociationConnector Association="АвтосалонModel.FK_dbo_Автомобили_dbo_Дополнительное_оборудование_Код_оборудования_3" ManuallyRouted="false" />
+        <AssociationConnector Association="АвтосалонModel.FK_dbo_Автомобили_dbo_Заказчики_Код_заказчика" ManuallyRouted="false" />
+        <AssociationConnector Association="АвтосалонModel.FK_dbo_Автомобили_dbo_Производители_Код_производителя" ManuallyRouted="false" />
+        <AssociationConnector Association="АвтосалонModel.FK_dbo_Автомобили_dbo_Сотрудники_Код_сотрудника" ManuallyRouted="false" />
+        <AssociationConnector Association="АвтосалонModel.FK_dbo_Автомобили_dbo_Тип_кузова_Код_типа_кузова" ManuallyRouted="false" />
+        <AssociationConnector Association="АвтосалонModel.FK_dbo_Сотрудники_dbo_Должности_Код_должности" ManuallyRouted="false" />
+        <AssociationConnector Association="АвтосалонModel.FK_dbo_Заказчики_dbo_Сотрудники_Код_сотрудника" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
